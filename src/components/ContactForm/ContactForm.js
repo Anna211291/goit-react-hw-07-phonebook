@@ -11,7 +11,6 @@ import {
   StyledForm,
   StyledLable,
 } from './ContactForm.styled';
-// import { addContact } from 'redux/contactSlice';
 
 const PhonebookValidSchema = Yup.object().shape({
   name: Yup.string()
